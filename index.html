@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3eee7">
+  <meta name="description" content="Discover men's shirts, T-shirts, jeans and everyday fashion at FANCY MEN'S WEAR in Segaon. Call or WhatsApp for the latest collection.">
+  <meta name="keywords" content="mens wear Segaon, clothing shop Segaon, shirts, t-shirts, jeans, FANCY MEN'S WEAR">
+  <meta property="og:title" content="FANCY MEN'S WEAR | Segaon">
+  <meta property="og:description" content="Everyday style. Quality you can feel. Visit FANCY MEN'S WEAR in Segaon.">
+  <meta property="og:type" content="website">
+  <title>FANCY MEN'S WEAR | Men's Clothing in Segaon</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%2325231f'/%3E%3Ctext x='50' y='66' font-size='43' text-anchor='middle' fill='%23c49a5a' font-family='Georgia'%3EFM%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --paper: #f3eee7;
+      --paper-deep: #e9e0d4;
+      --ink: #25231f;
+      --muted: #716b61;
+      --brand: #a77b3e;
+      --brand-dark: #79572d;
+      --line: #d8cdbf;
+      --olive: #68644d;
+      --serif: "DM Serif Display", Georgia, serif;
+      --sans: "DM Sans", sans-serif;
+      --wrap: 1180px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+    img { display: block; width: 100%; height: 100%; object-fit: cover; }
+    a { color: inherit; text-decoration: none; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    .wrap { width: min(var(--wrap), calc(100% - 48px)); margin-inline: auto; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 10px; color: var(--brand-dark); text-transform: uppercase; letter-spacing: .17em; font-size: .7rem; font-weight: 700; }
+    .eyebrow:before { content: ""; width: 25px; height: 1px; background: var(--brand); }
+    h1, h2, h3, p { margin-top: 0; }
+    h1, h2, .serif { font-family: var(--serif); font-weight: 400; letter-spacing: -.025em; }
+    h1 { font-size: clamp(3.1rem, 7.4vw, 6.8rem); line-height: .98; max-width: 760px; margin: 24px 0; }
+    h2 { font-size: clamp(2.5rem, 5vw, 4.5rem); line-height: 1.04; margin: 14px 0 20px; }
+    h3 { font-size: 1.12rem; margin-bottom: 8px; }
+    .lead { color: var(--muted); font-size: clamp(1rem, 1.6vw, 1.18rem); max-width: 550px; }
+    .btn { min-height: 50px; padding: 0 22px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; border: 1px solid var(--ink); font-size: .83rem; font-weight: 700; letter-spacing: .02em; transition: .2s ease; }
+    .btn-dark { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+    .btn-dark:hover { background: var(--brand-dark); border-color: var(--brand-dark); }
+    .btn-outline { background: transparent; }
+    .btn-outline:hover { background: var(--ink); color: var(--paper); }
+    .btn-gold { background: var(--brand); color: #201b14; border-color: var(--brand); }
+    .btn-gold:hover { background: #bb9258; }
+    .icon { width: 21px; height: 21px; flex: 0 0 auto; }
+    .site-header { position: sticky; top: 0; z-index: 20; background: rgba(243,238,231,.96); border-bottom: 1px solid var(--line); backdrop-filter: blur(10px); }
+    .nav { min-height: 82px; display: flex; align-items: center; justify-content: space-between; gap: 25px; }
+    .brand-lockup { display: flex; align-items: center; gap: 12px; min-width: 220px; }
+    .brand-mark { width: 43px; height: 43px; display: grid; place-items: center; background: var(--ink); color: var(--brand); font-family: var(--serif); font-size: 1.25rem; }
+    .brand-name { display: block; font-size: .9rem; font-weight: 700; letter-spacing: .09em; line-height: 1.15; }
+    .brand-place { display: block; color: var(--muted); font-size: .66rem; letter-spacing: .15em; text-transform: uppercase; margin-top: 4px; }
+    .nav-links { display: flex; align-items: center; gap: clamp(16px, 2.4vw, 34px); }
+    .nav-links a { font-size: .78rem; font-weight: 600; color: #514c44; }
+    .nav-links a:hover { color: var(--brand-dark); }
+    .nav-actions { display: flex; gap: 9px; align-items: center; }
+    .nav-actions .btn { min-height: 43px; padding-inline: 14px; font-size: .75rem; }
+    .menu-toggle { display: none; border: 1px solid var(--line); background: transparent; width: 44px; height: 44px; color: var(--ink); }
+    .hero { padding: 76px 0 86px; overflow: hidden; }
+    .hero-grid { display: grid; grid-template-columns: 1.02fr .98fr; align-items: center; gap: clamp(35px, 6vw, 90px); }
+    .hero-copy { padding: 20px 0 28px; }
+    .hero-copy h1 em { color: var(--brand-dark); font-style: normal; }
+    .hero-copy .lead { margin-bottom: 27px; }
+    .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+    .proof-line { display: flex; align-items: center; gap: 11px; margin-top: 27px; color: var(--muted); font-size: .78rem; }
+    .proof-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--brand); }
+    .hero-art { position: relative; min-height: 570px; }
+    .hero-photo { position: absolute; inset: 0 35px 30px 45px; overflow: hidden; background: var(--paper-deep); }
+    .hero-photo img { filter: saturate(.82); }
+    .hero-photo:after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(37,35,31,.28)); }
+    .hero-stamp { position: absolute; left: 0; bottom: 0; width: 190px; min-height: 170px; padding: 22px; background: var(--brand); display: flex; flex-direction: column; justify-content: space-between; }
+    .hero-stamp strong { font-family: var(--serif); font-size: 2.3rem; font-weight: 400; line-height: 1; }
+    .hero-stamp span { font-size: .68rem; text-transform: uppercase; letter-spacing: .13em; max-width: 120px; }
+    .hero-note { position: absolute; right: 0; top: 35px; writing-mode: vertical-rl; transform: rotate(180deg); font-size: .67rem; letter-spacing: .22em; text-transform: uppercase; color: var(--muted); }
+    .stitch { width: 100%; height: 18px; color: var(--brand); display: block; }
+    .trust { background: var(--ink); color: var(--paper); padding: 28px 0; }
+    .trust-grid { display: grid; grid-template-columns: repeat(4, 1fr); }
+    .trust-item { padding: 8px 26px; border-right: 1px solid #514b41; }
+    .trust-item:first-child { padding-left: 0; }
+    .trust-item:last-child { border: 0; }
+    .trust-item strong { display: block; font-family: var(--serif); font-size: 1.75rem; font-weight: 400; color: #d3ad75; }
+    .trust-item span { color: #c9c0b3; font-size: .73rem; }
+    section.content-section { padding: 108px 0; }
+    .section-head { display: flex; justify-content: space-between; align-items: end; gap: 35px; margin-bottom: 43px; }
+    .section-head > div:first-child { max-width: 640px; }
+    .section-head p { color: var(--muted); max-width: 360px; margin-bottom: 8px; font-size: .92rem; }
+    .products-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; align-items: start; }
+    .product-card { background: #eee7dd; border: 1px solid var(--line); }
+    .product-card:nth-child(even) { margin-top: 35px; }
+    .product-image { height: 260px; overflow: hidden; background: var(--paper-deep); }
+    .product-image img { transition: transform .5s ease; }
+    .product-card:hover .product-image img { transform: scale(1.045); }
+    .product-info { padding: 21px 19px 20px; }
+    .product-meta { color: var(--brand-dark); text-transform: uppercase; letter-spacing: .14em; font-size: .63rem; font-weight: 700; }
+    .product-info p { color: var(--muted); font-size: .81rem; min-height: 48px; margin-bottom: 16px; }
+    .product-bottom { display: flex; align-items: center; justify-content: space-between; gap: 10px; border-top: 1px solid var(--line); padding-top: 14px; }
+    .price { font-size: .78rem; font-weight: 700; }
+    .text-link { color: var(--brand-dark); font-size: .75rem; font-weight: 700; border-bottom: 1px solid var(--brand); padding-bottom: 3px; }
+    .about { background: var(--paper-deep); position: relative; overflow: hidden; }
+    .about-grid { display: grid; grid-template-columns: .83fr 1.17fr; gap: 9%; align-items: center; }
+    .about-visual { position: relative; min-height: 520px; }
+    .about-visual img { position: absolute; inset: 0 45px 45px 0; width: calc(100% - 45px); height: calc(100% - 45px); }
+    .owner-card { position: absolute; right: 0; bottom: 0; width: 190px; background: var(--ink); color: var(--paper); padding: 22px; }
+    .owner-initials { width: 52px; height: 52px; display: grid; place-items: center; border-radius: 50%; background: var(--brand); color: var(--ink); font-family: var(--serif); font-size: 1.35rem; margin-bottom: 15px; }
+    .owner-card strong { display: block; font-size: .82rem; }
+    .owner-card span { color: #c8beb0; font-size: .68rem; }
+    .about-copy p { color: var(--muted); font-size: .95rem; max-width: 620px; }
+    .feature-list { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 25px; margin: 29px 0 32px; }
+    .feature { display: flex; align-items: center; gap: 11px; font-size: .82rem; font-weight: 600; }
+    .feature-mark { width: 24px; height: 24px; display: grid; place-items: center; color: var(--brand-dark); border: 1px solid var(--brand); font-size: .75rem; }
+    .gallery-grid { display: grid; grid-template-columns: 1.15fr .85fr 1fr 1fr; grid-template-rows: 210px 210px; gap: 13px; }
+    .gallery-grid figure { margin: 0; overflow: hidden; background: var(--paper-deep); position: relative; }
+    .gallery-grid figure:first-child { grid-row: span 2; }
+    .gallery-grid figure:nth-child(4) { grid-column: span 2; }
+    .gallery-grid img { transition: transform .5s ease; }
+    .gallery-grid figure:hover img { transform: scale(1.04); }
+    .gallery-caption { position: absolute; left: 13px; bottom: 12px; padding: 7px 11px; background: rgba(37,35,31,.84); color: var(--paper); font-size: .67rem; letter-spacing: .08em; text-transform: uppercase; }
+    .review-section { background: var(--ink); color: var(--paper); }
+    .review-section .eyebrow { color: #d3ad75; }
+    .review-section .section-head p { color: #c1b8aa; }
+    .review-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .review-card { border: 1px solid #514b41; padding: 27px; min-height: 220px; }
+    .stars { display: flex; gap: 4px; color: #d3ad75; margin-bottom: 19px; }
+    .stars svg { width: 15px; height: 15px; fill: currentColor; }
+    .review-card blockquote { margin: 0 0 23px; font-family: var(--serif); font-size: 1.35rem; line-height: 1.3; color: #eee5d8; }
+    .review-card small { color: #b9afa1; font-size: .72rem; }
+    .review-note { color: #b9afa1; font-size: .72rem; margin-top: 18px; }
+    .pricing-layout { display: grid; grid-template-columns: .8fr 1.2fr; gap: 9%; }
+    .pricing-intro p { color: var(--muted); max-width: 340px; }
+    .price-list { border-top: 1px solid var(--line); }
+    .price-row { display: flex; justify-content: space-between; gap: 20px; padding: 18px 0; border-bottom: 1px solid var(--line); }
+    .price-row strong { font-size: .9rem; }
+    .price-row span { color: var(--muted); font-size: .8rem; text-align: right; }
+    .contact-section { background: #e9e0d4; }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 55px; align-items: start; }
+    .contact-details { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 28px; margin: 31px 0; }
+    .contact-item small { display: block; color: var(--brand-dark); text-transform: uppercase; letter-spacing: .14em; font-size: .65rem; font-weight: 700; margin-bottom: 6px; }
+    .contact-item a, .contact-item strong { font-size: .9rem; font-weight: 600; overflow-wrap: anywhere; }
+    .hours { border-top: 1px solid #cfc3b4; padding-top: 18px; max-width: 490px; }
+    .hours-row { display: flex; justify-content: space-between; gap: 20px; padding: 6px 0; font-size: .8rem; }
+    .hours-row span:last-child { color: var(--muted); }
+    .map-frame { min-height: 440px; border: 9px solid var(--paper); box-shadow: 16px 16px 0 var(--brand); background: var(--paper-deep); }
+    .map-frame iframe { display: block; width: 100%; height: 440px; border: 0; filter: grayscale(.7) sepia(.12); }
+    footer { background: var(--ink); color: var(--paper); padding: 64px 0 28px; }
+    .footer-top { display: grid; grid-template-columns: 1.3fr .7fr 1fr; gap: 45px; padding-bottom: 48px; }
+    .footer-brand p { color: #b9afa1; max-width: 300px; font-size: .83rem; margin-top: 18px; }
+    .footer-title { color: #d3ad75; font-size: .7rem; letter-spacing: .15em; text-transform: uppercase; margin-bottom: 17px; }
+    .footer-links { display: grid; gap: 10px; }
+    .footer-links a { color: #d4ccbf; font-size: .82rem; }
+    .footer-cta p { color: #b9afa1; font-size: .83rem; }
+    .footer-bottom { border-top: 1px solid #514b41; padding-top: 20px; display: flex; justify-content: space-between; gap: 15px; color: #a9a093; font-size: .68rem; }
+    .built { text-transform: lowercase; letter-spacing: .06em; }
+    .mobile-bar { display: none; }
+    @media (max-width: 1080px) {
+      .nav-links { gap: 15px; }
+      .nav-actions .btn { padding-inline: 10px; }
+      .hero-art { min-height: 510px; }
+      .product-image { height: 220px; }
+      .products-grid { grid-template-columns: repeat(2, 1fr); }
+      .product-card:nth-child(even) { margin-top: 24px; }
+    }
+    @media (max-width: 820px) {
+      .wrap { width: min(100% - 38px, 650px); }
+      .nav { min-height: 72px; }
+      .nav-links { display: none; position: absolute; top: 71px; left: 0; right: 0; padding: 20px 24px 24px; background: var(--paper); border-bottom: 1px solid var(--line); flex-direction: column; align-items: flex-start; gap: 17px; }
+      .nav-links.open { display: flex; }
+      .nav-actions .btn-outline { display: none; }
+      .menu-toggle { display: grid; place-items: center; }
+      .brand-lockup { min-width: 0; }
+      .hero { padding: 48px 0 65px; }
+      .hero-grid { grid-template-columns: 1fr; gap: 25px; }
+      .hero-copy { padding: 0; }
+      .hero-art { min-height: 480px; max-width: 570px; width: 100%; margin-left: auto; }
+      .trust-grid { grid-template-columns: 1fr 1fr; row-gap: 16px; }
+      .trust-item:nth-child(2) { border-right: 0; }
+      .trust-item:nth-child(3) { padding-left: 0; }
+      section.content-section { padding: 78px 0; }
+      .section-head { display: block; margin-bottom: 30px; }
+      .section-head p { margin-top: 12px; }
+      .about-grid, .pricing-layout, .contact-grid { grid-template-columns: 1fr; gap: 38px; }
+      .about-visual { min-height: 450px; max-width: 540px; }
+      .gallery-grid { grid-template-rows: 180px 180px 180px; grid-template-columns: 1fr 1fr; }
+      .gallery-grid figure:first-child { grid-row: span 2; }
+      .gallery-grid figure:nth-child(4) { grid-column: auto; }
+      .review-grid { grid-template-columns: 1fr; }
+      .review-card { min-height: 0; }
+      .map-frame, .map-frame iframe { min-height: 350px; height: 350px; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .footer-brand { grid-column: span 2; }
+    }
+    @media (max-width: 520px) {
+      .wrap { width: calc(100% - 34px); }
+      .brand-name { font-size: .76rem; }
+      .brand-place { font-size: .58rem; }
+      .brand-mark { width: 39px; height: 39px; }
+      .nav-actions .btn-dark { display: none; }
+      h1 { font-size: clamp(3rem, 15vw, 4.4rem); }
+      h2 { font-size: 2.8rem; }
+      .hero-art { min-height: 390px; }
+      .hero-photo { inset: 0 22px 25px 28px; }
+      .hero-stamp { width: 150px; min-height: 135px; padding: 16px; }
+      .hero-stamp strong { font-size: 1.9rem; }
+      .hero-note { right: -2px; top: 15px; font-size: .57rem; }
+      .trust-item { padding: 7px 14px; }
+      .trust-item strong { font-size: 1.45rem; }
+      .trust-item span { font-size: .66rem; }
+      .products-grid { gap: 10px; }
+      .product-card:nth-child(even) { margin-top: 20px; }
+      .product-image { height: 175px; }
+      .product-info { padding: 15px 12px; }
+      .product-info p { font-size: .74rem; min-height: 67px; }
+      .product-info h3 { font-size: .98rem; }
+      .product-bottom { align-items: flex-start; flex-direction: column; gap: 8px; }
+      .about-visual { min-height: 370px; }
+      .owner-card { width: 155px; padding: 16px; }
+      .gallery-grid { gap: 8px; grid-template-rows: 150px 150px 150px; }
+      .gallery-caption { font-size: .58rem; left: 7px; bottom: 7px; }
+      .feature-list { gap: 13px 10px; }
+      .feature { font-size: .73rem; align-items: flex-start; }
+      .contact-details { grid-template-columns: 1fr; gap: 17px; }
+      .map-frame { box-shadow: 8px 8px 0 var(--brand); border-width: 6px; }
+      .footer-top { grid-template-columns: 1fr; gap: 30px; }
+      .footer-brand { grid-column: auto; }
+      .footer-bottom { flex-direction: column; }
+      .mobile-bar { position: fixed; z-index: 30; bottom: 0; left: 0; right: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 10px 13px calc(10px + env(safe-area-inset-bottom)); background: rgba(243,238,231,.97); border-top: 1px solid var(--line); }
+      .mobile-bar .btn { min-height: 48px; }
+      body { padding-bottom: 76px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *:before, *:after { transition-duration: .01ms !important; } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand-lockup" href="#home" aria-label="FANCY MEN'S WEAR home">
+        <span class="brand-mark">FM</span>
+        <span><span class="brand-name">FANCY MEN'S WEAR</span><span class="brand-place">Segaon · Madhya Pradesh</span></span>
+      </a>
+      <nav class="nav-links" id="site-nav" aria-label="Main navigation">
+        <a href="#collections">Collections</a><a href="#about">Our Story</a><a href="#gallery">Gallery</a><a href="#contact">Find Us</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-outline" href="tel:+917000568673">Call Store</a>
+        <a class="btn btn-dark" href="https://wa.me/917000568673?text=Hello%20FANCY%20MEN%27S%20WEAR%2C%20I%27d%20like%20to%20ask%20about%20your%20latest%20collection.">WhatsApp</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+          <svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Men's fashion · Segaon</span>
+          <h1>Everyday style.<br><em>Made to feel</em><br>just right.</h1>
+          <p class="lead">Explore dependable everyday fashion, from easy-going T-shirts to shirts and jeans that fit your style.</p>
+          <div class="hero-actions">
+            <a class="btn btn-dark" href="https://wa.me/917000568673?text=Hello%20FANCY%20MEN%27S%20WEAR%2C%20please%20share%20your%20latest%20men%27s%20wear%20collection.">Explore on WhatsApp <span aria-hidden="true">↗</span></a>
+            <a class="btn btn-outline" href="tel:+917000568673">Call the Store</a>
+          </div>
+          <div class="proof-line"><span class="proof-dot"></span> A neighbourhood clothing store in Segaon, Madhya Pradesh</div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-photo"><img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?w=1000&auto=format&fit=crop" alt="Men's contemporary casual fashion" fetchpriority="high"></div>
+          <div class="hero-stamp"><strong>Find<br>your fit.</strong><span>Style for every day</span></div>
+          <div class="hero-note">FANCY MEN'S WEAR · SEGAON</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="trust">
+      <div class="wrap trust-grid">
+        <div class="trust-item"><strong>01</strong><span>Local store in Segaon</span></div>
+        <div class="trust-item"><strong>04+</strong><span>Everyday style categories</span></div>
+        <div class="trust-item"><strong>1-tap</strong><span>Call or WhatsApp enquiries</span></div>
+        <div class="trust-item"><strong>Easy</strong><span>In-store collection browsing</span></div>
+      </div>
+    </div>
+
+    <section class="content-section" id="collections">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="eyebrow">The collection</span><h2>Good style starts<br>with the essentials.</h2></div>
+          <p>Browse the pieces you reach for most. Message us to check available colours, sizes and current prices.</p>
+        </div>
+        <div class="products-grid">
+          <article class="product-card">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&auto=format&fit=crop" alt="Men's casual shirt" loading="lazy"></div>
+            <div class="product-info"><span class="product-meta">Smart casual</span><h3>Men's Shirts</h3><p>Everyday and occasion-ready styles to bring a little polish to your look.</p><div class="product-bottom"><span class="price">Ask for current price</span><a class="text-link" href="https://wa.me/917000568673?text=Hello%2C%20I%27m%20interested%20in%20men%27s%20shirts.%20Please%20share%20available%20styles%2C%20sizes%20and%20prices.">Enquire ↗</a></div></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&auto=format&fit=crop" alt="Classic men's T-shirt" loading="lazy"></div>
+            <div class="product-info"><span class="product-meta">Easy everyday</span><h3>Men's T-Shirts</h3><p>Comfortable, versatile picks for relaxed days and casual plans.</p><div class="product-bottom"><span class="price">Ask for current price</span><a class="text-link" href="https://wa.me/917000568673?text=Hello%2C%20I%27m%20looking%20for%20men%27s%20T-shirts.%20Please%20share%20available%20colours%2C%20sizes%20and%20prices.">Enquire ↗</a></div></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=800&auto=format&fit=crop" alt="Denim jeans" loading="lazy"></div>
+            <div class="product-info"><span class="product-meta">A wardrobe staple</span><h3>Men's Jeans</h3><p>Denim options to pair with your favourite shirts and tees.</p><div class="product-bottom"><span class="price">Ask for current price</span><a class="text-link" href="https://wa.me/917000568673?text=Hello%2C%20please%20share%20your%20men%27s%20jeans%20collection%20with%20available%20fits%2C%20sizes%20and%20prices.">Enquire ↗</a></div></div>
+          </article>
+          <article class="product-card">
+            <div class="product-image"><img src="https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800&auto=format&fit=crop" alt="Men's trousers and casual wear" loading="lazy" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=800&auto=format&fit=crop';"></div>
+            <div class="product-info"><span class="product-meta">Versatile looks</span><h3>Trousers & Pants</h3><p>Practical options for workdays, outings and everyday dressing.</p><div class="product-bottom"><span class="price">Ask for current price</span><a class="text-link" href="https://wa.me/917000568673?text=Hello%2C%20I%27d%20like%20to%20know%20about%20your%20men%27s%20trousers%20and%20pants%20collection%20and%20prices.">Enquire ↗</a></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section about" id="about">
+      <div class="wrap about-grid">
+        <div class="about-visual">
+          <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=900&auto=format&fit=crop" alt="Modern men's fashion styling" loading="lazy">
+          <div class="owner-card"><div class="owner-initials">FM</div><strong>FANCY MEN'S WEAR</strong><span>Your local men's fashion store</span></div>
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow">A local name in fashion</span>
+          <h2>Style should feel<br>personal, not complicated.</h2>
+          <p>At FANCY MEN'S WEAR, we believe getting dressed well should be simple. Our store in Segaon brings together everyday men's clothing essentials, so you can explore different looks in one convenient place.</p>
+          <p>Whether you are choosing a shirt for a family occasion, a T-shirt for a relaxed day or jeans for your regular rotation, we are happy to help you find an option that feels right. Visit us, browse the collection and ask our team about current availability.</p>
+          <div class="feature-list">
+            <div class="feature"><span class="feature-mark">✓</span> Shirts, tees and denim</div>
+            <div class="feature"><span class="feature-mark">✓</span> Helpful in-store assistance</div>
+            <div class="feature"><span class="feature-mark">✓</span> Local Segaon location</div>
+            <div class="feature"><span class="feature-mark">✓</span> Quick WhatsApp enquiries</div>
+            <div class="feature"><span class="feature-mark">✓</span> Options for everyday wear</div>
+            <div class="feature"><span class="feature-mark">✓</span> Browse before you decide</div>
+          </div>
+          <a class="btn btn-dark" href="https://wa.me/917000568673?text=Hello%20FANCY%20MEN%27S%20WEAR%2C%20I%27d%20like%20to%20know%20more%20about%20your%20store%20and%20collection.">Talk to Our Store</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="gallery">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="eyebrow">Style inspiration</span><h2>A closer look at<br>everyday dressing.</h2></div>
+          <p>Explore a few style references while you decide what to look for in-store. Actual stock and designs may vary.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure><img src="https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=900&auto=format&fit=crop" alt="Casual men's clothing inspiration" loading="lazy"><figcaption class="gallery-caption">Casual essentials</figcaption></figure>
+          <figure><img src="https://images.unsplash.com/photo-1603252110481-7ba873bf42ab?w=700&auto=format&fit=crop" alt="Men's shirt styling" loading="lazy"><figcaption class="gallery-caption">Shirt styles</figcaption></figure>
+          <figure><img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=700&auto=format&fit=crop" alt="Contemporary casual outfit" loading="lazy"><figcaption class="gallery-caption">Everyday looks</figcaption></figure>
+          <figure><img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?w=900&auto=format&fit=crop" alt="Men's fashion outfit" loading="lazy"><figcaption class="gallery-caption">Modern wardrobe</figcaption></figure>
+          <figure><img src="https://images.unsplash.com/photo-1517445312882-bc9910d016b7?w=700&auto=format&fit=crop" alt="Men's clothing detail" loading="lazy"><figcaption class="gallery-caption">Finishing details</figcaption></figure>
+          <figure><img src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?w=700&auto=format&fit=crop" alt="Men's fashion collection" loading="lazy"><figcaption class="gallery-caption">Style selection</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section review-section">
+      <div class="wrap">
+        <div class="section-head">
+          <div><span class="eyebrow">A store built on conversations</span><h2>Your experience<br>matters to us.</h2></div>
+          <p>We welcome honest feedback from customers in Segaon. Share your experience after visiting the store.</p>
+        </div>
+        <div class="review-grid">
+          <article class="review-card"><div class="stars" aria-label="Five star rating"><svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 7 1-5.05 4.92 1.2 6.95L12 17.9l-6.25 3.27 1.2-6.95L1.9 9.3l7-1z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 7 1-5.05 4.92 1.2 6.95L12 17.9l-6.25 3.27 1.2-6.95L1.9 9.3l7-1z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 7 1-5.05 4.92 1.2 6.95L12 17.9l-6.25 3.27 1.2-6.95L1.9 9.3l7-1z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 7 1-5.05 4.92 1.2 6.95L12 17.9l-6.25 3.27 1.2-6.95L1.9 9.3l7-1z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 7 1-5.05 4.92 1.2 6.95L12 17.9l-6.25 3.27 1.2-6.95L1.9 9.3l7-1z"/></svg></div><blockquote>“Visited the store? Tell us what you liked and what we can do better.”</blockquote><small>Customer feedback · Segaon</small></article>
+          <article class="review-card"><div class="stars" aria-label="Five star rating"><svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 7 1-5.05 4.92 1.2 6.95L12 17.9l-6.25 3.27 1.2-6.95L1.9 9.3l7-1z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 7 1-5.05 4.92 1.2 6.95L12 17.9l-6.25 3.27 1.2-6.95L1.9 9.3l7-1z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 7 1-5.05 4.92 1.2 6.95L12 17.9l-6.25 3.27-6.25 3.27 1.2-6.95L1.9 9.3l7-1z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 7 1-5.05 4.92 1.2 6.95L12 17.9l-6.25 3.27L1.9 9.3l7-1z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 7 1-5.05 4.92 1.2 6.95L12 17.9l-6.25 3.27L1.9 9.3l7-1z"/></svg></div><blockquote>“Found something you enjoy wearing? Your review helps other local shoppers.”</blockquote><small>Customer feedback · Segaon</small></article>
+          <article class="review-card"><div class="stars" aria-label="Five star rating"><svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 7 1-5.05 4.92 1.2 6.95L12 17.9l-6.25 3.27 1.2-6.95L1.9 9.3l7-1z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 7 1-5.05 4.92 1.2 6.95L12 17.9l-6.25 3.27-1.2-6.95L1.9 9.3l7-1z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 7 1-5.05 4.92 1.2 6.95L12 17.9l-6.25 3.27-1.2-6.95L1.9 9.3l7-1z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 7 1-5.05 4.92 1.2 6.95L12 17.9l-6.25 3.27-1.2-6.95L1.9 9.3l7-1z"/></svg><svg viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 7 1-5.05 4.92 1.2 6.95L12 17.9l-6.25 3.27-1.2-6.95L1.9 9.3l7-1z"/></svg></div><blockquote>“Have a suggestion for our collection? We would love to hear from you.”</blockquote><small>Customer feedback · Segaon</small></article>
+        </div>
+        <p class="review-note">These are feedback prompts, not published customer reviews. We do not display unverified testimonials.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="pricing">
+      <div class="wrap pricing-layout">
+        <div class="pricing-intro"><span class="eyebrow">Clear before you choose</span><h2>Ask us for<br>today's prices.</h2><p>Prices and availability can change by design, brand and size. Message us for the latest details before you visit.</p><a class="btn btn-dark" href="https://wa.me/917000568673?text=Hello%2C%20please%20share%20the%20latest%20prices%20and%20availability%20for%20your%20men%27s%20wear%20collection.">Request Price List</a></div>
+        <div class="price-list">
+          <div class="price-row"><strong>Men's Shirts</strong><span>Ask for current price</span></div>
+          <div class="price-row"><strong>Men's T-Shirts</strong><span>Ask for current price</span></div>
+          <div class="price-row"><strong>Men's Jeans</strong><span>Ask for current price</span></div>
+          <div class="price-row"><strong>Trousers & Pants</strong><span>Ask for current price</span></div>
+          <div class="price-row"><strong>Other men's fashion</strong><span>Ask for current price</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section contact-section" id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <span class="eyebrow">Visit your local store</span>
+          <h2>Let's find your<br>next favourite.</h2>
+          <p class="lead">Drop by FANCY MEN'S WEAR in Segaon, or get in touch before your visit.</p>
+          <div class="contact-details">
+            <div class="contact-item"><small>Call us</small><a href="tel:+917000568673">+91 70005 68673</a></div>
+            <div class="contact-item"><small>WhatsApp</small><a href="https://wa.me/917000568673?text=Hello%20FANCY%20MEN%27S%20WEAR%2C%20I%27m%20planning%20to%20visit.%20Please%20help%20me%20with%20your%20store%20details.">Chat with the store</a></div>
+            <div class="contact-item"><small>Email</small><a href="mailto:fancycollectionsegaon@gmail.com">fancycollectionsegaon@gmail.com</a></div>
+            <div class="contact-item"><small>Location</small><strong>Segaon, Madhya Pradesh, India</strong></div>
+          </div>
+          <div class="hours">
+            <h3>Store hours</h3>
+            <div class="hours-row"><span>Monday – Sunday</span><span>Please call to confirm</span></div>
+            <div class="hours-row"><span>Holiday hours</span><span>Call before visiting</span></div>
+          </div>
+        </div>
+        <div class="map-frame">
+          <iframe title="Map showing FANCY MEN'S WEAR in Segaon, Madhya Pradesh" src="https://maps.google.com/maps?q=FANCY%20MEN%27S%20WEAR%2C%20Segaon%2C%20Madhya%20Pradesh%2C%20India&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand-lockup" href="#home"><span class="brand-mark">FM</span><span><span class="brand-name">FANCY MEN'S WEAR</span><span class="brand-place">Segaon · Madhya Pradesh</span></span></a>
+          <p>Everyday style, dependable essentials and a local place to explore men's fashion.</p>
+        </div>
+        <div><div class="footer-title">Explore</div><div class="footer-links"><a href="#collections">Collections</a><a href="#about">Our Story</a><a href="#gallery">Gallery</a><a href="#contact">Contact & Location</a></div></div>
+        <div class="footer-cta"><div class="footer-title">Need help choosing?</div><p>Ask about sizes, colours and current availability. We are just a WhatsApp message away.</p><a class="btn btn-gold" href="https://wa.me/917000568673?text=Hello%20FANCY%20MEN%27S%20WEAR%2C%20I%20need%20help%20choosing%20something%20from%20your%20collection.">Message FANCY MEN'S WEAR ↗</a></div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year"></span> FANCY MEN'S WEAR. All rights reserved.</span><span class="built">built with ❤️ by 21.coders</span></div>
+    </div>
+  </footer>
+
+  <div class="mobile-bar" aria-label="Quick contact">
+    <a class="btn btn-outline" href="tel:+917000568673">Call Store</a>
+    <a class="btn btn-dark" href="https://wa.me/917000568673?text=Hello%20FANCY%20MEN%27S%20WEAR%2C%20I%27d%20like%20to%20enquire%20about%20your%20collection.">WhatsApp</a>
+  </div>
+  <script>
+    const menuButton = document.getElementById('menu-toggle');
+    const navigation = document.getElementById('site-nav');
+    menuButton.addEventListener('click', () => {
+      const isOpen = navigation.classList.toggle('open');
+      menuButton.setAttribute('aria-expanded', String(isOpen));
+      menuButton.setAttribute('aria-label', isOpen ? 'Close navigation' : 'Open navigation');
+    });
+    navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      navigation.classList.remove('open');
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'Open navigation');
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
